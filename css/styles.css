@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.tp-background {
+  background-color: transparent;
+}
+header {
+  font-size: 20px;
+}
+
+header li {
+  margin: auto 5px;
+}
+
+.modal-footer a {
+  text-decoration: none;
+}
+
+.navbar button {
+  background-color: blueviolet;
+  border: none;
+}
+
+.navbar button:hover {
+  background-color: rgb(180, 112, 243);
+}
+
+.container {
+  display: flex;
+  flex-basis: auto;
+}
+
+#customBorder {
+  border-radius: 30% 70% 70% 30% / 30% 22% 78% 70%;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #183153;
+  font-size: 2em;
+}
+
+.projects a {
+  background-color: blueviolet;
+  border: none;
+}
+
+.projects a:hover {
+  background-color: rgb(180, 112, 243);
+  border: none;
+}
+.card-center {
+  display: flex;
+  justify-content: center;
+}
+
+#businessProfile {
+  border-radius: 20px;
+}
+
+.modal button {
+  background-color: blueviolet;
+  border: none;
+}
+
+.modal button:hover {
+  background-color: rgb(180, 112, 243);
+}

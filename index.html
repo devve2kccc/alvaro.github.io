@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>about me</title>
+    <script
+      src="https://kit.fontawesome.com/76294482d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg tp-background py-3 py-lg-2">
+        <div class="container-lg">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/logo.png"
+              alt="Logo"
+              width="50"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse position-lg-absolute end-lg-0 me-lg-4"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >about</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="business.html">business</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-lg"
+                  data-bs-toggle="modal"
+                  data-bs-target="#contactModal"
+                >
+                  contact
+                </button>
+
+                <div
+                  class="modal fade"
+                  id="contactModal"
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="contactModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="contactModalLabel">
+                          contact me
+                        </h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          email:
+                          <a href="#">devve-business@protonmail.com</a>
+                        </p>
+                        <p>
+                          phone:
+                          <a href="#">+351 925 852 823</a>
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          close
+                        </button>
+                        <a
+                          href="mailto:devve-business@protonmail.com"
+                          class="btn btn-primary link-light"
+                          >email me</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-lg mainContent mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="img/photo.jpg"
+              style="width: 100%"
+              id="customBorder"
+              alt="my photo"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="text-center">about me</h1>
+            <p class="fs-4 font-monospace">
+              Hey, I'm Alvaro, a 19-year-old programming enthusiast currently
+              enrolled at IPVC University in Portugal. I'm on an exhilarating
+              journey through the world of computer science, diving into the
+              intricacies of coding and technology. My current focus is the
+              CS50x course, where I'm honing my skills and expanding my
+              knowledge. This corner of the internet serves as a window into my
+              experiences, challenges, and triumphs as a programming student.
+              Expect to find a mix of insights, coding adventures, and perhaps
+              the occasional "aha" moment. I'm thrilled to share my passion with
+              you and connect with like-minded individuals.
+            </p>
+            <div class="icons">
+              <div class="container text-center justify-content-center">
+                <div class="row">
+                  <div class="col">
+                    <a href="https://www.instagram.com/alvarofernandes_devve/"
+                      ><i class="fa-brands fa-square-instagram fa-2xl"></i
+                    ></a>
+                  </div>
+                  <div class="col">
+                    <a href="https://github.com/devve2kccc"
+                      ><i class="fa-brands fa-square-github fa-2xl"></i
+                    ></a>
+                  </div>
+                  <div class="col">
+                    <a href="https://twitter.com/devve71750344"
+                      ><i class="fa-brands fa-square-twitter fa-2xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
